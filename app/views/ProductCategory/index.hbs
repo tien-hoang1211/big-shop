@@ -1,0 +1,27 @@
+<div class="w3l-table-info">
+    <h3>{{title}}</h3>
+    <table id="table">
+        <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Seo Url</th>
+                <th>OrderDisplay</th>
+                <th>Status</th>
+                <th>#</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each productCategory as |item|}}
+                <tr>
+                    <td>{{item.id}}</td>
+                    <td>{{item.name}}</td>
+                    <td>{{item.seo_url}}</td>
+                    <td>{{item.displayorder}}</td>
+                    <td>{{item.status}}</td>
+                    <td>Edit | Delete</td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>

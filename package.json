@@ -1,0 +1,27 @@
+{
+  "name": "MVC-Module",
+  "version": "1.0.0",
+  "description": "This is mvc-module, you can use it to create a different project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tien-hoang1211/MVC-Module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tien-hoang1211/MVC-Module/issues"
+  },
+  "homepage": "https://github.com/tien-hoang1211/MVC-Module#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "handlebar": "^1.0.0",
+    "pg": "^6.2.4"
+  }
+}

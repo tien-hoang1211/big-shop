@@ -1,0 +1,53 @@
+myapp
+|
+|
+|____app
+|      |____controllers
+|      |    |____home.js
+|      |
+|      |____models
+|      |     |___home.js
+|      |
+|      |____views
+|           |___404.ejs
+| 	    |___error.ejs
+|           |___index.ejs
+|           |___login.ejs
+|           |___signup.ejs
+|	
+|
+|_____config
+|     |___auth.js
+|     |___constants.js
+|     |___database.js
+|     |___passport.js
+|     |___routes.js
+|
+|
+|____lib
+|    |___email.js
+|
+|____node_modules
+|
+|
+|____public.js
+|    |____css
+|    |    |__style.css
+|    |    
+|    |____js
+|    |    |__script.js
+|    |
+|    |____img
+|    |    |__img.jpg
+|    |
+|    |
+|    |____uploads
+|         |__img.jpg
+|      
+|   
+|
+|_____app.js
+|
+|
+|
+|_____package.json
